@@ -6,6 +6,6 @@ import LoginRoutes from './LoginRoutes';
 
 // ==============================|| ROUTING RENDER ||============================== //
 
-const router = createBrowserRouter([MainRoutes, LoginRoutes], { basename: '/free' || env.process.VITE_APP_BASE_NAME });
+const router = createBrowserRouter([MainRoutes, LoginRoutes], { basename: '/ambidexters' || env.process.VITE_APP_BASE_NAME });
 
 export default router;
