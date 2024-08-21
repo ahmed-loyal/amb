@@ -28,7 +28,7 @@ const dashboard = {
       id: 'users',
       title: 'Users',
       type: 'item',
-      url: '#',
+      url: '/users',
       icon: icons.UserOutlined,
       breadcrumbs: false
     },
@@ -36,7 +36,7 @@ const dashboard = {
       id: 'data entry',
       title: 'Data Entry',
       type: 'item',
-      url: '#',
+      url: '/data-entry',
       icon: icons.ProjectOutlined,
       breadcrumbs: false
     },
@@ -44,7 +44,7 @@ const dashboard = {
       id: 'og am',
       title: 'Og AM Analytics',
       type: 'item',
-      url: '#',
+      url: '/ogam-analytics',
       icon: icons.FundProjectionScreenOutlined,
       breadcrumbs: false
     }

@@ -4,6 +4,7 @@ import { RouterProvider } from 'react-router-dom';
 import router from 'routes';
 import ThemeCustomization from 'themes';
 
+//Navigation scroll to top
 import ScrollTop from 'components/ScrollTop';
 
 // ==============================|| APP - THEME, ROUTER, LOCAL ||============================== //

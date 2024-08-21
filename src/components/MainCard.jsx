@@ -1,3 +1,5 @@
+//A REUSEABLE COMPONENT TO STYLE CARDS ON PAGE
+
 import PropTypes from 'prop-types';
 import { forwardRef } from 'react';
 

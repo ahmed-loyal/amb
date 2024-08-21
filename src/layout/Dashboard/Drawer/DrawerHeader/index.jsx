@@ -16,8 +16,9 @@ export default function DrawerHeader({ open }) {
     <DrawerHeaderStyled theme={theme} open={!!open}>
       <Typography
         variant="h5"
+        component={'h1'}
+        color="primary"
         sx={{
-          color: 'primary.main',
           fontWeight: '800'
         }}
       >

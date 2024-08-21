@@ -9,6 +9,15 @@ const DashboardDefault = Loadable(lazy(() => import('pages/dashboard/index')));
 // render - sample page
 const SamplePage = Loadable(lazy(() => import('pages/extra-pages/sample-page')));
 
+// ogam analytics
+// const OgAmAnalytics = Loadable(lazy(() => import('pages/ogam-analytics/index')));
+
+// data entry
+const DataEntry = Loadable(lazy(() => import('pages/data-entry/index')));
+
+// users
+// const Users = Loadable(lazy(() => import('pages/users/index')));
+
 // ==============================|| MAIN ROUTING ||============================== //
 
 const MainRoutes = {
@@ -31,6 +40,10 @@ const MainRoutes = {
     {
       path: 'sample-page',
       element: <SamplePage />
+    },
+    {
+      path: 'data-entry',
+      element: <DataEntry />
     }
   ]
 };
