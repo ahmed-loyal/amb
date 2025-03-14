@@ -69,7 +69,7 @@ export default function DashboardDefault() {
         <AnalyticEcommerce title="Churn Rate" count="78" percentage={7.4} isLoss color="warning" extra="1" />
       </Grid>
       <Grid item xs={12} sm={6} md={4} lg={3}>
-        <AnalyticEcommerce title="Average OgAM Score" count="467" percentage={59.3} extra="76" />
+        <AnalyticEcommerce title="Average Insight AI Score" count="467" percentage={59.3} extra="76" />
       </Grid>
       <Grid item xs={12} sm={6} md={4} lg={3}>
         <AnalyticEcommerce title="System Uptime" count="78,250 hours" percentage={70.5} extra="8,900" />

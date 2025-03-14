@@ -9,8 +9,8 @@ const DashboardDefault = Loadable(lazy(() => import('pages/dashboard/index')));
 // render - sample page
 const SamplePage = Loadable(lazy(() => import('pages/extra-pages/sample-page')));
 
-// ogam analytics
-// const OgAmAnalytics = Loadable(lazy(() => import('pages/ogam-analytics/index')));
+// insight analytics
+const InsightAnalytics = Loadable(lazy(() => import('pages/insight-analytics/index')));
 
 // data entry
 const DataEntry = Loadable(lazy(() => import('pages/data-entry/index')));
@@ -44,6 +44,10 @@ const MainRoutes = {
     {
       path: 'data-entry',
       element: <DataEntry />
+    },
+    {
+      path: 'insight-analytics',
+      element: <InsightAnalytics />
     }
   ]
 };

@@ -41,10 +41,10 @@ const dashboard = {
       breadcrumbs: false
     },
     {
-      id: 'og am',
-      title: 'Og AM Analytics',
+      id: 'i ai',
+      title: 'Insight Analytics',
       type: 'item',
-      url: '/ogam-analytics',
+      url: '/insight-analytics',
       icon: icons.FundProjectionScreenOutlined,
       breadcrumbs: false
     }

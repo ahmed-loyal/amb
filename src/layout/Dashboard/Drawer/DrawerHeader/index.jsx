@@ -22,7 +22,7 @@ export default function DrawerHeader({ open }) {
           fontWeight: '800'
         }}
       >
-        AMBIDEXTERS
+        INSIGHT AI
       </Typography>
     </DrawerHeaderStyled>
   );
